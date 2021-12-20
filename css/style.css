@@ -136,7 +136,7 @@ h1{
 }
 /* ==== */
 .bg-2-cover{
-    background: url(../img/bg2.gif);
+    background: url(../img/bg.gif);
     height: 35rem;
     background-repeat: no-repeat;
     background-size: cover;
@@ -237,6 +237,9 @@ h1{
         margin-left: 35%;
     }
     /* === */
+    .bg-1-cover{
+        height: 47vw;
+    }
     #bg-1-img{
         width: 90%;
         margin-left: 5%;
