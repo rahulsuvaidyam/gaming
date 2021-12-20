@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+/* mobile nav */
+#check{
+    display: none;
+}
+.checkbtn{
+    cursor: pointer;
+    margin-left: 88%;
+    color: white;
+    font-size: 2rem;
+    line-height: 4rem;
+    display: none;
+}
+/* uncheck */
+.uncheckbtn{
+    cursor: pointer;
+    color: white;
+    float: right;
+    margin-top: -3rem;
+    margin-right: 2rem;
+    font-size: 2rem;
+    display: none;
+}
+h1{
+    display: none;
+}
+
+
+/* navbar */
+.navbar{
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(38, 38, 73);
+    position: fixed;
+    
+}
+.nav-contant{
+    margin-left: 36%;
+}
+.nav-img{
+    width: 13rem;
+    position: absolute;
+    margin-left: -30%;
+    margin-top: 1rem;
+}
+.nav-item{
+    display: flex;
+}
+.nav-link{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.nav-a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mo-icon{
+    display: none;
+}
+.fa-icon{
+    width: 17rem;
+    height: 4rem;
+    float: right;
+    margin-right: 3rem;
+    margin-top: -2.8rem;
+}
+.fa-i{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 9px 10px;
+    border: 1px solid rgb(248, 248, 250);
+    border-radius: 20px;
+    background-color: rgb(133, 133, 192);
+    color: red;
+}
+.nav-button{
+    background-color: rgb(38, 38, 73);
+    color: orangered;
+    border: 2px solid orangered;
+    width: 40%;
+    height: 1.7rem;
+    float: right;
+    margin-right: -2rem;
+    margin-top: 1.3rem;
+    border-radius: 5px;
+}
+.nav-gap{
+    width: 100%;
+    height: 5rem;
+}
+/*  */
+.bg-cover{
+    height: 35rem;
+    background: url(../img/gif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.bg-img{
+    width: 50%;
+    margin: 8% 0% 0% 25%;
+}
+#bg-paira{
+    color: white;
+    width: 50%;
+    margin: 0% 0% 0% 25%;
+    text-align: center;
+}
+.bg-button{
+    width: auto;
+    height: 1.8rem;
+    margin: 0% 0% 0% 45%;
+    background-color:transparent;
+    border: 2px solid orangered;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+#button-a{
+    color: orangered;
+    padding: 1rem;
+}
+/* ====== */
+.bg-1-cover{
+    width: 100%;
+    height: 30rem;
+    background-color: black;
+}
+#bg-1-img{
+    width: 50%;
+    margin: 5% 0% 0% 23%;
+}
+/* ==== */
+.bg-2-cover{
+    background: url(../img/bg2.gif);
+    height: 35rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.bg-2-col-1{
+    width: 50%;
+    height: auto;
+}
+#bg-2-img{
+    width: 70%;
+    margin: 10% 0% 0% 22%;
+}
+.bg-2-box{
+    width: 70%;
+    height: auto;
+    background-color: rgb(17, 8, 8);
+    margin: 0% 0% 0% 22%;
+}
+#bg-2-paira{
+    color: white;
+    text-align: justify;
+    padding: 2rem;
+    font-family: sans-serif;
+}
+.bg-2-col-2{
+    width: 50%;
+}
+#bg-2-img1{
+    width: 70%;
+    height: 28rem;
+    margin: 10% 0% 0% 5%;
+}
+
+
+
+
+
+@media only screen and (max-width:990px){
+    /* ====mobile nav===== */
+    .checkbtn{
+        display: block;
+        margin-left: 84%;
+    }
+    .nav-header{
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background: rgb(38, 38, 73);
+        top: -0px;
+        right:-100%;
+        transition: all .5s;
+    } 
+    .nav-item{
+        display: block;
+        margin-top: 4rem;
+        border-top: 1px solid red;
+        text-align: center;
+        
+        
+    }
+    #check:checked ~ .nav-header{
+      right:0%;
+  
+    }
+    /* unchek */
+    .uncheckbtn{
+        display: block;
+    }
+   
+    h1{
+        display: block;
+        color: white;
+        position: absolute;
+        margin: 1.1rem;
+    
+    }
+    /* ================== */
+    .fa-icon{
+        display: none;
+    }
+    .mo-icon{
+        display: block;
+    }
+    .nav-button{
+        display: none;
+    }
+    .bg-img{
+        width: 90%;
+        margin: 8% 0% 0% 5%;
+    }
+    #bg-paira{
+        color: white;
+        width: 88%;
+        margin: 0% 0% 0% 7%;
+    }
+    .bg-button{
+        margin-left: 35%;
+    }
+    /* === */
+    #bg-1-img{
+        width: 90%;
+        margin-left: 5%;
+    }
+    /* 0 */
+    .bg-2-cover{
+        display: block;
+        height: auto;
+    }
+    .bg-2-col-1{
+        width: 90%;
+    }
+    .bg-2-col-2{
+        width: 100%;
+    
+    }
+    #bg-2-img1{
+        margin-left: 15%;
+    }
+ 
+}
