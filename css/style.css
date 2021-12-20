@@ -64,7 +64,7 @@ h1{
 }
 .fa-icon{
     width: 17rem;
-    height: 4rem;
+    height: 5rem;
     float: right;
     margin-right: 3rem;
     margin-top: -2.8rem;
@@ -192,7 +192,7 @@ h1{
     } 
     .nav-item{
         display: block;
-        margin-top: 4rem;
+        margin-top: 5rem;
         border-top: 1px solid red;
         text-align: center;
         
